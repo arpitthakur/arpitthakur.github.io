@@ -13,19 +13,22 @@ Git hub is used to allow other people to add to the project.
 Git is a open source control software designed to handle everything from small to very large projects.
 Git is easy to learn and understand.
 
-					The terminal
+The terminal
+
 Terminal is a way to interact with your operating system directly.
 
-					CD command
+CD command
+
 CD command is used to change the directory.
+
 cd folder name 
 For going back to window drive 
 cd..
 
-					Website for download Git 
+Website to download Git 
 http://git-scm.com
 
- 					CONFIGURE TOOLING
+CONFIGURE TOOLING
 Configure user information from all local repositories.
  git config --global user.name"[name]"
 sets the name you want to be attached to your commit transaction.
