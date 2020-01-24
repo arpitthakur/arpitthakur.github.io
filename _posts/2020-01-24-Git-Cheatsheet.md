@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Git:
 *Git is a source control software allowing you to take snapshots.
