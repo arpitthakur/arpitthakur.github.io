@@ -1,48 +1,52 @@
 ---
 published: true
 ---
-## Git:
+
+
+****## Git:
 Git is an open-source control software allowing you to take snapshots.
 Git is the bone and flesh of open source control.
 Git is the most popular source control software in the world.
 
-GIT VS GITHUB	
+****GIT VS GITHUB	
 Github is an application allowing you to store repositories.
 Github is used to allow other people to add to the project.
 
-Git is a open source control software designed to handle everything from small to very large projects.
+****__Git is a open source control software designed to handle everything from small to very large projects.
 Git is easy to learn and understand.
 
-The terminal
+__The terminal
 
-Terminal is a way to interact with your operating system directly.
+__Terminal is a way to interact with your operating system directly.
+ 
 
-CD command
+****CD command
 
-CD command is used to change the directory.
+__CD command is used to change the directory.
 
-cd folder name 
+****cd folder name 
 For going back to window drive 
 cd..
 
-Website to download Git 
-http://git-scm.com
+****Website to download Git 
+1.http://git-scm.com
 
-CONFIGURE TOOLING
+****CONFIGURE TOOLING
 Configure user information from all local repositories.
 git config --global user.name"[name]"
 sets the name you want to be attached to your commit transaction.
 git config --global user.email"[email]"
 select the email you want to be attached to your commit transaction.
 
-CREATE REPOSITORIES
+-
+****CREATE REPOSITORIES
 Start a new repository.
 git init [repository - name]
 Create a new local repository with the specified name.
 git clone [URL]
 Download a project and its entire history.
 
-MAKE CHANGES
+__MAKE CHANGES
 git status
 list all new or modified files
 git add [file]
@@ -54,7 +58,7 @@ Commit a file.
 git revert [copied commit]
 Revert bascially takes a commit and reverse it.
 
-BRANCH
+__BRANCH
 A chain of the commit that does not interface with other branches.
 git branch 
 list all local branches in the current repository.
@@ -68,20 +72,22 @@ git branch -d [branch -name]
 Delete the specified branch.
 
 
-REFACTOR FILENAMES
+****REFACTOR FILENAMES
 Remove versioned files
 git rm [file]
 Delete the specified file from working directory and stages the deletion.
 git mv [file - original] [file -renamed]
 change the file name.
 
-REVIEW HISTORY
+###
+
+****REVIEW HISTORY
 git log 
 Lists history of the current branch.
 git diff [first- branch]...[second-branch]
 Shows the content difference between two branches
 
-REDO COMMITS
+__REDO COMMITS
 git reset --hard [commit]
 Discard all history and changes back to the specified commit.
  
