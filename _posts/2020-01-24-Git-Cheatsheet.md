@@ -61,17 +61,15 @@ __git status__
 list all new or modified files
 
 **git add [file]**
-
 Add the file
+
 __git reset [file]__
-
 Unstaged the file.
-**git commit -m "message"**
 
+**git commit -m "message"**
 Commit a file.
 
 __git revert [copied commit]__
-
 Revert bascially takes a commit and reverse it.
 
 **BRANCH**
@@ -97,10 +95,9 @@ __REFACTOR FILENAMES__
 Remove versioned files
 
 **git rm [file]**
-
 Delete the specified file from working directory and stages the deletion.
-__git mv [file - original] [file -renamed]__
 
+__git mv [file - original] [file -renamed]__
 change the file name.
 
 ###
