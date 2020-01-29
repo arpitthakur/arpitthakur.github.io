@@ -2,94 +2,97 @@
 published: true
 ---
 
+##
 
-****## Git:
+**Git**
 Git is an open-source control software allowing you to take snapshots.
 Git is the bone and flesh of open source control.
 Git is the most popular source control software in the world.
 
-****GIT VS GITHUB	
-Github is an application allowing you to store repositories.
-Github is used to allow other people to add to the project.
+__GIT VS GITHUB__	
+1.Github is an application allowing you to store repositories.
+2.Github is used to allow other people to add to the project.
 
-****__Git is a open source control software designed to handle everything from small to very large projects.
-Git is easy to learn and understand.
+3.Git is a open source control software designed to handle everything from small to very large projects.
+4.Git is easy to learn and understand.
 
-__The terminal
+**The terminal**
 
-__Terminal is a way to interact with your operating system directly.
+Terminal is a way to interact with your operating system directly.
  
 
-****CD command
+__CD command__
 
->CD command is used to change the directory.
+CD command is used to change the directory.
 
->>cd folder name 
-For going back to window drive 
-cd..
+**cd folder name**
+2.For going back to window drive 
+3.cd..
 
->Website to download Git 
+__Website to download Git__ 
 1.http://git-scm.com
 
->CONFIGURE TOOLING
+__CONFIGURE TOOLING__
 Configure user information from all local repositories.
-git config --global user.name"[name]"
+**git config --global user.name"[name]"**
 sets the name you want to be attached to your commit transaction.
-git config --global user.email"[email]"
+**git config --global user.email"[email]"**
 select the email you want to be attached to your commit transaction.
 
--
->CREATE REPOSITORIES
+
+__CREATE REPOSITORIES__
 Start a new repository.
-git init [repository - name]
+**git init [repository - name]**
 Create a new local repository with the specified name.
-git clone [URL]
+**git clone [URL]**
 Download a project and its entire history.
 
->>MAKE CHANGES
-git status
+**MAKE CHANGES**
+__git status__
 list all new or modified files
-git add [file]
+**git add [file]**
 Add the file
-git reset [file]
+__git reset [file]__
 Unstaged the file.
-git commit -m "message"
+**git commit -m "message"**
 Commit a file.
-git revert [copied commit]
+__git revert [copied commit]__
 Revert bascially takes a commit and reverse it.
 
->BRANCH
+**BRANCH**
 A chain of the commit that does not interface with other branches.
-git branch 
+__git branch__ 
 list all local branches in the current repository.
-git branch [branch-name]
+**git branch [branch-name]**
 Create a new branch.
-git checkout [branch-name]
+__git checkout [branch-name]__
 switch to the specified branch.
-git merge [branch]
+**git merge [branch]**
 Combined specified branch into current branch
-git branch -d [branch -name]
+**git branch -d [branch -name]**
 Delete the specified branch.
 
 
->REFACTOR FILENAMES
+__REFACTOR FILENAMES__
 Remove versioned files
-git rm [file]
+**git rm [file]**
 Delete the specified file from working directory and stages the deletion.
-git mv [file - original] [file -renamed]
+__git mv [file - original] [file -renamed]__
 change the file name.
 
 ###
 
->>REVIEW HISTORY
-git log 
+**REVIEW HISTORY**
+__git log__
 Lists history of the current branch.
-git diff [first- branch]...[second-branch]
+**git diff [first- branch]...[second-branch]**
 Shows the content difference between two branches
 
 
-****REDO COMMITS
-git reset --hard [commit]
+__REDO COMMITS__
+**git reset --hard [commit]**###
+
+
 Discard all history and changes back to the specified commit.
  
 
