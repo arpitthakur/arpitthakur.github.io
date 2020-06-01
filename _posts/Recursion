@@ -1,0 +1,21 @@
+##
+RECURSION
+Recursion is a technique for iterating over an operation by having a function call itself repeatedly until it arrives at a result.
+Most loops can be written in a recursive style and some functional languages.
+However, JavaScript functional coding style does not support recursive function, we need to be aware that most JavaScript 
+compilers are not currently optimized to support them safely.
+
+Recursion is best applied when you need to call the same function repeatedly with different parameters from within a loop.
+It can be used in many situations, it is most effective for solving problems involving iterative branching, such as math, sorting or
+non-linear data structures.
+
+Recursive functions are also naturally easy to test because they are easy to write purely.
+Recursion is favored in functional programming is that it allows for the construction of code that does not require setting and maintaining state with local variables.
+
+For example: 
+function factorial (n) {
+//0 ! = 1, 1 ! = 1
+if ( n > 0 && n <= 1 ) {
+	return 1 ;
+}
+##
