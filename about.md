@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+ My name is Arpit Thakur and I am a student of BCA.I am from Himachal Pradesh. Currently I am pursuing my bachelor degree from the college..
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+
+
 
 ### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+arpitthakut722@gmail.com
