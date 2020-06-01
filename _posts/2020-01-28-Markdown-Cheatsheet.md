@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Markdown
+Markdown:
 Markdown is a markup knowledge with plain text formatting syntax. It is often used to format readme files, write messages in discussion forums.
 Markdown is differed from platform to platform and would require syntax extensions to make it work everywhere.
 The reason behind coming up with something like markdown was to create an easily human-readable text.
